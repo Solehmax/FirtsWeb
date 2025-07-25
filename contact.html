@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Andin Website Home</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="CSS_style.css" />
+  <style>
+    :root {
+      --bg-dark: #121212;
+      --bg-card: #1e1e1e;
+      --primary: #00adb5;
+      --text-primary: #eeeeee;
+      --text-secondary: #aaaaaa;
+      --accent: #393e46;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--bg-dark);
+      color: var(--text-primary);
+    }
+
+    .nav {
+      background: linear-gradient(135deg, #00adb5, #007580);
+      display: flex;
+      justify-content: center;
+      padding: 15px 0;
+      border-bottom: 2px solid #00000030;
+    }
+
+    .nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .nav a:hover {
+      text-decoration: underline;
+    }
+
+    .profile-container {
+      max-width: 900px;
+      margin: 40px auto;
+      background-color: var(--bg-card);
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 0 20px rgba(0, 255, 255, 0.05);
+      padding: 40px 30px;
+    }
+
+    .profile-top {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .profile-photo {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin: 0 auto 20px;
+      border: 5px solid var(--primary);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    }
+
+    .profile-photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .profile-top h2 {
+      font-size: 2em;
+      margin: 0;
+    }
+
+    .profile-top p {
+      color: var(--text-secondary);
+      font-size: 1em;
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    .section h3 {
+      color: var(--primary);
+      margin-bottom: 15px;
+      border-left: 4px solid var(--primary);
+      padding-left: 10px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      text-align: left;
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--accent);
+    }
+
+    th {
+      width: 30%;
+      background-color: #222831;
+      font-weight: bold;
+    }
+
+    .contact a {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 20px;
+      background-color: var(--primary);
+      color: #121212;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    .contact a:hover {
+      background-color: #00ffea;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      background-color: #1e1e1e;
+      color: var(--text-secondary);
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="nav">
+    <a href="indexNaka.html">Home</a>
+    <a href="news.html">News</a>
+    <a href="foto.html">Foto</a>
+    <a href="Latihan 5 PW.html">Video</a>
+    <a href="About.html">About</a>
+    <a href="Tugas 5 PW.html">Contact</a>
+  </nav>
+
+  <div class="profile-container">
+    <div class="profile-top">
+      <div class="profile-photo">
+        <img src="dikagigihiu.jpg" alt="Foto Profil" />
+      </div>
+      <h2>Andika Chozin Asyrori</h2>
+      <p>Mahasiswa | Web Enthusiast | Sleep & Travel Lover</p>
+    </div>
+
+    <div class="section">
+      <h3>Data Diri</h3>
+      <table>
+        <tr>
+          <th>Tempat, Tanggal Lahir</th>
+          <td>Metro, 25 April 2003</td>
+        </tr>
+        <tr>
+          <th>Alamat</th>
+          <td>Kotabumi, Lampung Utara, Lampung</td>
+        </tr>
+        <tr>
+          <th>Hobi</th>
+          <td>Tidur & Traveling</td>
+        </tr>
+        <tr>
+          <th>Pendidikan</th>
+          <td>Mahasiswa UMKO</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="section">
+      <h3>Deskripsi Singkat</h3>
+      <p>
+        Saya adalah mahasiswa yang gemar mengeksplorasi dunia teknologi dan pengembangan web. 
+        Tertarik pada coding, desain UI/UX, dan selalu semangat belajar hal baru yang bisa 
+        nambah skill dan portofolio. Santai, tapi tetap gas terus!
+      </p>
+    </div>
+
+    <div class="section contact">
+      <h3>Kontak Saya</h3>
+      <a href="https://wa.me/qr/7QDBIQVNJUVCM1" target="_blank">Chat via WhatsApp</a>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Andinwebsite. All rights reserved.
+  </footer>
+
+</body>
+</html>
